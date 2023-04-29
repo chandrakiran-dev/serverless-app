@@ -61,7 +61,7 @@ app.post("/users", async function (req, res) {
     res.json({ userId, name });
   } catch (error) {
     console.log(error);
-    res.status(500).json({ error: "Could not create user" });
+    res.status(500).json({ error: "Cold not create user" });
   }
 });
 
